@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="VENDOR">
+    <id>YPMN</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+
+    <compatibility>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+    <functions>
+        <item for="install">fn_payu_install</item>
+        <item for="uninstall">fn_payu_uninstall</item>
+    </functions>
+</addon>

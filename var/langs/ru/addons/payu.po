@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.9.2/addons/payu.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2018-12-25 08:18\n"
+
+msgctxt "Addons::name::payu"
+msgid "Russian localization — PayU"
+msgstr "YPMN"
+
+msgctxt "Addons::description::payu"
+msgid "Payment acceptance via PayU"
+msgstr "Прием платежей через YPMN"
+
+msgctxt "Languages::addons.payu.text_payu_notice"
+msgid "Please add these URL callback in your PayU configuration:<br /><br/>[r_url]<br/>"
+msgstr "Пожалуйста, добавьте следующий <strong>Адрес для приёма IPN уведомлений</strong> на странице конфигурации YPMN:<br/><br/>[r_url]<br/>"
+
+msgctxt "Languages::addons.payu.merchant_name"
+msgid "Merchant"
+msgstr "Код продавца (MERCHANT)"
+
+msgctxt "Languages::addons.payu.secret_key"
+msgid "Secret key"
+msgstr "Секретный ключ"
+
+msgctxt "Languages::addons.payu.tax"
+msgid "Tax"
+msgstr "Ставка НДС по умолчанию"
+
+msgctxt "Languages::addons.payu.tax_0"
+msgid "Tax rate 0%"
+msgstr "0%"
+
+msgctxt "Languages::addons.payu.tax_10"
+msgid "Tax rate 10%"
+msgstr "10%"
+
+msgctxt "Languages::addons.payu.tax_20"
+msgid "Tax rate 20%"
+msgstr "20%"
+
+msgctxt "Languages::addons.payu.statuses"
+msgid "Statuses"
+msgstr "Статусы заказа"
+
+msgctxt "Languages::addons.payu.error"
+msgid "Error"
+msgstr "Ошибка"
+
+msgctxt "Languages::addons.payu.paid"
+msgid "Paid"
+msgstr "Оплачено"
+
+msgctxt "Languages::addons.payu.logging"
+msgid "Logging"
+msgstr "Логирование"
+
+msgctxt "Languages::addons.payu.wrong_transaction_id"
+msgid "Wrong transaction"
+msgstr "Некорректный номер транзакции"
+
+msgctxt "Languages::addons.payu.wrong_hash"
+msgid "Wrong hash"
+msgstr "Некорректный хэш"
+
+msgctxt "Languages::addons.payu.wrong_amount"
+msgid "Wrong amount"
+msgstr "Сумма заказа не совпадает"
+
+msgctxt "Languages::addons.payu.success_withdrawn"
+msgid "Success Withdrawn"
+msgstr "Списание денежных средств успешно выполнено"
+
+msgctxt "Languages::addons.payu.text_redirect"
+msgid "Redirect to PayU payment page"
+msgstr "Выполняется перенаправление на страницу оплаты YPMN. Подождите..."
